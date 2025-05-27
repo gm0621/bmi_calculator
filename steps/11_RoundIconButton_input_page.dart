@@ -36,9 +36,9 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     color:
-                        (selectedGender == Gender.male)
-                            ? kActiveCardColor
-                            : kInActiveCardColor,
+                    (selectedGender == Gender.male)
+                        ? kActiveCardColor
+                        : kInActiveCardColor,
                     child: IconText(icon: FontAwesomeIcons.mars, text: 'MALE'),
                   ),
                 ),
@@ -50,9 +50,9 @@ class _InputPageState extends State<InputPage> {
                       });
                     },
                     color:
-                        (selectedGender == Gender.female)
-                            ? kActiveCardColor
-                            : kInActiveCardColor,
+                    (selectedGender == Gender.female)
+                        ? kActiveCardColor
+                        : kInActiveCardColor,
                     child: IconText(
                       icon: FontAwesomeIcons.venus,
                       text: 'FEMALE',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bmi_calculator/contants.dart';
 
 class IconText extends StatelessWidget {
   final IconData icon;
@@ -12,7 +13,7 @@ class IconText extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(icon, size: 80),
-        Text(text, style: TextStyle(fontSize: 18, color: Color(0xFF8D8E98))),
+        Text(text, style: kLabelTextStyle),
       ],
     );
   }
