@@ -212,7 +212,7 @@ class _InputPageState extends State<InputPage> {
             child: Center(
               child: Text(
                 'CALCULATE',
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
+                style: kBottomTextStyle,
               ),
             ),
           ),
